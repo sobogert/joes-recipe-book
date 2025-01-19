@@ -1,4 +1,84 @@
+@import './style/fonts.css';
+@import './style/reset.css';
 
+:root {
+  --cream: #F7EFDF;
+  --red: #5A110C;
+  --salmon: #ED6A5A;
+  --lime: #BBF100;
+  --dark-green: #14281D;
+}
+
+body {
+  background-color: var(--cream);
+  font-color: var(--dark-green);
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: 'Chillax Variable';
+}
+
+p {
+  font-family: 'Outfit';
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-align-start {
+  align-items: flex-start;
+}
+
+.page {
+  padding: 100px 134px;
+  gap: 130px;
+}
+
+.header {
+  border: 8px solid var(--dark-green);
+  border-radius: 15px;
+  font-size: 76px;
+  font-family: 'Chillax-Variable';
+  color: var(--dark-green);
+  font-weight: 900;
+  padding: 20px 40px;
+  width: min-content;
+  white-space: nowrap;
+}
+
+.recipe {
+  border: 4px solid var(--dark-green);
+  border-radius: 15px;
+  padding: 20px 30px;
+  gap: 20px;
+}
+
+.recipe:hover {
+  background-color: var(--salmon);
+}
+
+.recipe_ingredients {
+  gap: 20px;
+}
 
 .App {
   text-align: center;
