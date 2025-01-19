@@ -10,6 +10,8 @@ function App() {
                 <h2 className={"recipe_header"}>
                     Thai Curry
                 </h2>
+                {/* main recipe card can have name, cook time, and maybe # ingredients
+                then expand to show details */}
                 <div className={"recipe_ingredients flex"}>
                     <div className={"flex flex-column flex-start"}>
                         <p>3-5 chicken thighs</p>
