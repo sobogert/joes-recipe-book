@@ -15,10 +15,23 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
+h1 {
+  font-size: 76px;
+  font-weight: 900;
+  font-family: 'Chillax Variable', sans-serif;
+}
+
 h2 {
   font-size: 36px;
+  font-weight: 900;
+  font-family: 'Chillax Variable', sans-serif;
+}
+
+h3 {
+  font-size: 22px;
   font-weight: 600;
   font-family: 'Chillax Variable', sans-serif;
+  padding-block: 8px;
 }
 
 .flex {
@@ -31,6 +44,10 @@ h2 {
 
 .flex-center {
   justify-content: center;
+}
+
+.flex-between {
+  justify-content: space-between;
 }
 
 .flex-start {
@@ -53,10 +70,7 @@ h2 {
 .header {
   border: 8px solid var(--dark-green);
   border-radius: 15px;
-  font-size: 76px;
-  font-family: 'Chillax-Variable', sans-serif;
   color: var(--dark-green);
-  font-weight: 900;
   padding: 20px 40px;
   width: min-content;
   white-space: nowrap;
@@ -69,15 +83,34 @@ h2 {
   gap: 20px;
 }
 
-.recipe:hover {
-  background-color: var(--salmon);
+.recipe_expanded {
+  width: 80vw;
+  background: var(--cream);
+  color: var(--red);
+  border: 8px solid var(--red);
+}
+
+.recipe_condensed:hover {
+  background-color: var(--lime);
   cursor: pointer;
+}
+
+.recipe_condensed:active {
+  background-color: var(--red);
 }
 
 .recipe_subtitle-container {
   gap: 8px;
 }
 
+.recipe_body_subsection {
+  margin-top: 8px;
+}
+
 .recipe_ingredients {
   gap: 20px;
+  height: 60px;
+  white-space: nowrap;
+  width: 100%;
+  flex-wrap: wrap;
 }
