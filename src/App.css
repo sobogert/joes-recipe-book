@@ -4,6 +4,7 @@
 :root {
   --cream: #F7EFDF;
   --red: #5A110C;
+  --chestnut: #A43E33;
   --salmon: #ED6A5A;
   --lime: #BBF100;
   --dark-green: #14281D;
@@ -23,15 +24,95 @@ h1 {
 
 h2 {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 700;
   font-family: 'Chillax Variable', sans-serif;
+  margin-block: 6px;
 }
 
 h3 {
   font-size: 22px;
   font-weight: 600;
   font-family: 'Chillax Variable', sans-serif;
-  padding-block: 8px;
+  margin-block: 8px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Chillax Variable', sans-serif;
+}
+
+a, a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--red);
+}
+
+a:hover {
+  color: var(--salmon);
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style-image: url("./assets/images/boogie-bullet.svg");
+  padding-left: 1em;
+  text-indent: -1em;
+  padding-block: 5px;
+}
+
+li::marker {
+  padding-right: 18px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Chillax Variable', sans-serif;
+  margin-block: 6px;
+}
+
+input {
+  font-size: 16px;
+  font-family: 'Outfit', sans-serif;
+  border: 3px solid var(--salmon);
+  padding: 4px 6px;
+  border-radius: 6px;
+  background: var(--red);
+  color: var(--salmon);
+}
+
+input:focus {
+  outline: none !important;
+  border-color: var(--lime);
+}
+
+.btn {
+  background: var(--salmon);
+  color: var(--red);
+  font-family: 'Chillax Variable', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--lime);
+  color: var(--dark-green);
+}
+
+.btn:active {
+  background-color: #D4AE2D;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .flex {
@@ -54,6 +135,10 @@ h3 {
   justify-content: flex-start;
 }
 
+.flex-end {
+  justify-content: flex-end;
+}
+
 .flex-align-center {
   align-items: center;
 }
@@ -62,8 +147,12 @@ h3 {
   align-items: flex-start;
 }
 
+.flex-align-end {
+  align-items: flex-end;
+}
+
 .page {
-  padding: 100px 134px;
+  padding: 80px 134px 30px 134px;
   gap: 130px;
 }
 
@@ -79,8 +168,8 @@ h3 {
 .recipe {
   border: 4px solid var(--dark-green);
   border-radius: 15px;
-  padding: 20px 30px;
-  gap: 20px;
+  padding: 16px 24px;
+  gap: 14px;
 }
 
 .recipe_expanded {
@@ -99,8 +188,29 @@ h3 {
   background-color: var(--red);
 }
 
-.recipe_subtitle-container {
-  gap: 8px;
+.close-btn {
+  background: inherit;
+  color: var(--red);
+  font-weight: 900;
+  font-size: 30px;
+  border: none;
+  font-family: 'Chillax Variable', sans-serif;
+}
+
+.close-btn:hover {
+  color: var(--salmon);
+}
+
+.close-btn:active {
+  color: var(--chestnut);
+}
+
+.recipe_subtitle {
+  margin: 2px;
+}
+
+.recipe_body {
+  gap: 20px;
 }
 
 .recipe_body_subsection {
@@ -108,9 +218,22 @@ h3 {
 }
 
 .recipe_ingredients {
-  gap: 20px;
-  height: 60px;
+  height: 56px;
   white-space: nowrap;
   width: 100%;
   flex-wrap: wrap;
+}
+
+.add-recipe {
+  background: var(--red);
+  border: 8px solid var(--salmon);
+  color: var(--salmon);
+  border-radius: 15px;
+  width: 80%;
+  padding: 20px 30px;
+  gap: 20px;
+}
+
+.add-recipe_label {
+  gap: 4px;
 }

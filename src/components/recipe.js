@@ -32,14 +32,6 @@ export default function Recipe(props) {
                     <h3 className={"recipe_subtitle flex"}>est cook time: {estCookTime}</h3>
                     <h3 className={"recipe_subtitle flex"}>est total time: {estTotalTime}</h3>
                 </div>
-
-                <div className={"recipe_body display-none"}>
-                    this is here now
-
-                    {/*    have ingredients and instructions here
-            on click, change state of the component to show the
-            hidden fields, expand the parent container, show the close btn*/}
-                </div>
             </div>
 
         );
@@ -49,13 +41,13 @@ export default function Recipe(props) {
             <div className={"recipe flex flex-column recipe_expanded"}>
                 <div className={"flex flex-between"}>
                     <h2 className={"recipe_header"}>{recipeName}</h2>
-                    <button className={"close-btn"} onClick={handleClick}>X</button>
+                    <button className={"close-btn"} onClick={handleClick}>&#10006;</button>
                 </div>
                 {/* main recipe card can have name, cook time, and maybe # ingredients
                 then expand to show details */}
 
 
-                <div className={"recipe_body"}>
+                <div className={"recipe_body flex flex-column flex-start"}>
                     <div className={"recipe_body_subsection flex flex-column flex-start"}>
                         <h3>Ingredients</h3>
                         <div className={"recipe_ingredients flex flex-start flex-column"}>

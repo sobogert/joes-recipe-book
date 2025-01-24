@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b24b33f-9dbc-49b4-af8b-136e081ec633" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/boogie-bullet-hollow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/boogie-bullet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/addRecipe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
@@ -27,7 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2rrY2MJo9K92zgejRfVuBbopOEV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,6 +84,7 @@
       <workItem from="1737318455126" duration="5236000" />
       <workItem from="1737340979417" duration="6077000" />
       <workItem from="1737604390675" duration="4315000" />
+      <workItem from="1737691498968" duration="7961000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,7 @@
 import './App.css';
 import Recipe from "./components/recipe";
+import boogie from "./assets/images/boogie.svg";
+import AddRecipe from "./components/addRecipe";
 
 function App() {
 
@@ -60,6 +62,11 @@ function App() {
                 ingredients={thaiCurryIngredients}
                 steps={thaiCurrySteps}
             />
+        </div>
+        <AddRecipe/>
+        <div class={"page_footer flex flex-between flex-align-end full-width"}>
+            <h4>made with love by <a href={"https://sophiabogert.com"}>Sofi Bogert</a></h4>
+            <img src={boogie} alt={"Sofi's logo"}/>
         </div>
     </div>
   );
