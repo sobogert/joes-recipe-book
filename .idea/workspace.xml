@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b24b33f-9dbc-49b4-af8b-136e081ec633" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/boogie-bullet-hollow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/boogie-bullet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/addRecipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +81,7 @@
       <workItem from="1737340979417" duration="6077000" />
       <workItem from="1737604390675" duration="4315000" />
       <workItem from="1737691498968" duration="7961000" />
+      <workItem from="1737767947660" duration="378000" />
     </task>
     <servers />
   </component>
